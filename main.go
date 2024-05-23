@@ -569,7 +569,7 @@ func main() {
 	if err != nil {
 		log.Println("Failed to create the index:", err)
 	}
-
+	fmt.Println("Запускаем сервер")
 	// Настройка HTTP-сервер.
 	mux := http.NewServeMux()
 	r := chi.NewRouter()
